@@ -1,0 +1,61 @@
+body {
+    height: 100vh; display: flex; flex-flow: column; justify-content: center;
+    align-items: center; background-color: pink;
+}
+
+
+#scoreBoard{
+    display: flex;
+    flex-flow: row;
+    justify-content: space-evenly;
+
+}
+
+#choiceDisplay {
+    display: flex;
+    flex-flow: row;
+    justify-content: space-evenly;
+}
+a {
+    color: white;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+a.yes {
+    background-color: green;
+}
+a.no {
+    background-color: red;
+}
+
+a:hover {
+    background-color: lightslategrey;
+    cursor: pointer;
+}
+
+.score {
+    margin: 2vw;
+    font-weight: bolder;
+}
+
+.space {
+    width: 10vw;
+}
+
+.hidden {
+    display: none;
+}
+
+
+#highscore-container{
+    display: flex;
+    flex-direction: column;
+    padding: 1em;
+    border: 2px solid black;
+    align-self: start;
+    position: fixed;
+    width: fit-content;
+
+}
